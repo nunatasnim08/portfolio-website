@@ -23,7 +23,7 @@ export const Projects = () => {
     {
       title: "Portfolio Website",
       imgUrl: projImg3,
-      url: "https://www.example.com",
+      url: "https://master--thunderous-scone-3bf2ce.netlify.app/",
     }, 
   ];
 

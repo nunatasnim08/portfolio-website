@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Engineer", "Frontend Development Enthusiast"];
+  const toRotate = [ "Software Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Nuna Tasnim`} <span className="txt-rotate" dataPeriod="1000" ><span className="wrap">{text}</span></span></h1>
-                  <p>With strong design and integration skills, as well as intuitive problem-solving abilities.I have knowledge of JAVA, C++, PYTHON, JAVASCRIPT, and SQL. I am enthusiastic about implementing and launching new projects. Capability to translate business needs into technical solutions. Looking to begin a career as an entry-level software engineer with a reputable technology-driven firm.</p>
+                  <p>With strong design and integration skills, as well as intuitive problem-solving abilities.I have knowledge of JAVA, C++, PYTHON, JAVASCRIPT, and SQL. I am enthusiastic about implementing and launching new projects. Capable to translate business needs into technical solutions. Looking to begin a career as an entry-level software engineer with a reputable technology-driven firm.</p>
                  
               </div>}
             </TrackVisibility>
